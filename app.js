@@ -21,7 +21,7 @@ const drawTwo = require('./scrapers/drawtwo')
 
 
 
-cron.schedule('*/2 * * * *', function() {
+cron.schedule('*/10 * * * *', function() {
   polygon()
   pcgamer()
   kotaku()
