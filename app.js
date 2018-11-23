@@ -19,7 +19,6 @@ const artibuff = require('./scrapers/artibuff')
 const rockpapershotgun = require('./scrapers/rockpapershotgun')
 const drawTwo = require('./scrapers/drawtwo')
 
-app.use(morgan('dev'))
 
 
 cron.schedule('*/2 * * * *', function() {
